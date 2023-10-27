@@ -60,9 +60,7 @@ $siteColumns = [
         'label' => 'LLL:EXT:pagenotfoundhandling/Resources/Private/Language/backend.xlf:site.forceLanguage',
         'description' => 'LLL:EXT:pagenotfoundhandling/Resources/Private/Language/backend.xlf:site.forceLanguage.description',
         'config' => [
-            'type' => 'select',
-            'renderType' => 'selectSingle',
-            'special' => 'languages',
+            'type' => 'language',
             'items' => [
                 [
                     'LLL:EXT:pagenotfoundhandling/Resources/Private/Language/backend.xlf:site.forceLanguage.disable',
